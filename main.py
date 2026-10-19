@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Apna Bot Token yahan dalna hai
-BOT_TOKEN = "APNA_BOT_TOKEN_YAHAN_DALO"
+BOT_TOKEN =8819282839:AAE12JFWZYUfrx2GOt83EtPRmjJa5rOPOrk
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hello! Main mybot24 hun. 24 ghante online hun ✅")
